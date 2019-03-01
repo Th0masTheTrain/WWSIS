@@ -1,18 +1,22 @@
+
 <!doctype html>
 <html lang="pl">
 <head>
 <meta charset="utf-8">
 <meta name="Author" content="Jan Kowalski">
 <meta	name="robots" content="all" /><meta name="description" content="Opis zawartości strony dla wyszukiwarek"><meta name="keywords" content="ISO">
-<title>Model TCP/IP</title>
+<title>Model ISO</title>
 </head>
 <body>
-<h1>Model TCP/IP</h1>
+<h1>Model ISO</h1>
 <h2>Wprowadzenie </h2>
-<b>Model TCP/IP <em>(ang. Transmission Control Protocol/Internet Protocol)</em></B> – teoretyczny model warstwowej struktury protokołów komunikacyjnych. Model TCP/IP został stworzony w latach 70. XX wieku w DARPA, aby pomóc w tworzeniu odpornych na atak sieci komputerowych. Potem stał się podstawą struktury Internetu.<p>
-</p>
-  Podstawowym założeniem modelu TCP/IP jest podział całego zagadnienia komunikacji sieciowej na szereg współpracujących ze sobą warstw (ang. layers). Każda z nich może być tworzona przez programistów zupełnie niezależnie, jeżeli narzucimy pewne protokoły według których wymieniają się one informacjami. Założenia modelu TCP/IP są pod względem organizacji warstw zbliżone do modelu OSI. Jednak liczba warstw jest mniejsza i bardziej odzwierciedla prawdziwą strukturę Internetu.
-  <p><mark><small>Model TCP/IP składa się z czterech warstw.</mark></small></p>
+<p>Model OSI (pełna nazwa ISO OSI RM, ang. ISO Open Systems Interconnection Reference Model – model odniesienia łączenia systemów otwartych) lub OSI – standard zdefiniowany przez ISO oraz ITU-T opisujący strukturę komunikacji sieciowej.</p>
+
+<p>Międzynarodowa Organizacja Normalizacyjna (ang. International Organization for Standardization) na początku lat osiemdziesiątych dostrzegła potrzebę stworzenia modelu sieciowego, dzięki któremu producenci mogliby opracowywać współpracujące ze sobą rozwiązania sieciowe. W taki sposób powstała specyfikacja Open Systems Interconnection Reference Model, która do polskich norm została zaadaptowana w 1995 roku.</p>
+
+<p>Model ISO OSI RM jest traktowany jako model odniesienia (wzorzec) dla większości rodzin protokołów komunikacyjnych. Podstawowym założeniem modelu jest podział systemów sieciowych na 7 warstw (ang. layers) współpracujących ze sobą w ściśle określony sposób. Został przyjęty przez ISO w 1984 roku a najbardziej interesującym organem jest wspólny komitet powołany przez ISO/IEC, zwany Joint Technical Committee 1- Information Technology (JTC1). Formalnie dzieli się jeszcze na podkomitety SC.</p>
+
+<p><mark><small>Dla Internetu sformułowano uproszczony Model TCP/IP, który ma tylko 4 warstwy.</small></mark></p>
 <hr>
 <h2><b> Warstwa aplikacji</h2></b>
 Warstwa procesowa czy warstwa aplikacji (ang. process layer) to najwyższy poziom, w którym pracują użyteczne dla człowieka aplikacje takie jak np. serwer WWW czy przeglądarka internetowa. Obejmuje ona zestaw gotowych protokołów, które aplikacje wykorzystują do przesyłania różnego typu informacji w sieci. Wykorzystywane protokoły to m.in.: HTTP, Telnet, FTP, TFTP, SNMP, DNS, SMTP, X Window.
