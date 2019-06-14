@@ -1,0 +1,97 @@
+
+body
+{
+background-color: white;
+font-family: 'lato', sans-serif;
+padding: 0;
+margin: 0;
+}
+#container
+{
+  width: 1920px
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+   margin: 0;
+}
+#topmenu
+{
+  color:black;
+  background-color: white;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  width: 1920px;
+  height: 125px;
+  display: inline-block;
+
+}
+#zdjecie
+{
+  position: relative;
+  bottom: 80px;
+  padding: 0;
+   margin: -4px;
+}
+#logo
+{
+    position:relative;
+    bottom: 82px;
+    height: 125px;
+    z-index: 1
+
+}
+.option
+{
+  float:left;
+  min-width: 30px;
+  height: 30px;
+  font-size: 24px;
+  padding: 15px;
+  position: relative;
+  left: 1000px;
+  bottom: 100px;
+  border-right:2px solid black;
+
+}
+.option:hover
+{
+  background-color: #778899 ;
+  cursor: pointer;
+}
+
+#footer
+{
+  color: white;
+  text-align: center;
+  background-color: black;
+  width: 1920px;
+  height: 25px;
+  position:absolute;
+  top: 1500px;
+}
+#Cytat
+{
+
+position: absolute;
+left:808px
+
+}
+.galeria
+{
+  margin:35px 50px;
+}
+.galeria img
+{
+  position: absolute;
+  left:89px;
+  width:450px;
+  padding: 50px;
+  filter:grayscale(100%);
+  transition: 1s;
+}
+.galeria img:hover
+{
+filter: grayscale(0);
+transform: scale(1.2);
+}
